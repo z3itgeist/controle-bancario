@@ -4,6 +4,8 @@
  */
 package model;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author braga
@@ -36,6 +38,26 @@ public class conta {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+    
+    
+    public void creditar (int nC, double v) {
+        this.saldo = this.saldo+v;
+    }
+    
+    public void debitar (int nC, double v) {
+        
+        if (this.saldo>=v){
+            this.saldo = this.saldo-v;
+        }else{
+            JOptionPane.showMessageDialog(null, "Saldo de conta insuficiente");
+        }
+    }
+    
+    public void mostrarSaldo (){
+        JOptionPane.showMessageDialog(null, this.saldo);
+    }
+    
+    
     
     
     

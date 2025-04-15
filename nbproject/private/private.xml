@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/braga/Documents/NetBeansProjects/controleBancario/src/model/contaCorrente.java</file>
             <file>file:/C:/Users/braga/Documents/NetBeansProjects/controleBancario/src/model/conta.java</file>
-            <file>file:/C:/Users/braga/Documents/NetBeansProjects/controleBancario/src/controlebancario/ControleBancario.java</file>
-            <file>file:/C:/Users/braga/Documents/NetBeansProjects/controleBancario/src/view/cadContaPadrao.java</file>
-            <file>file:/C:/Users/braga/Documents/NetBeansProjects/controleBancario/src/view/menu.java</file>
+            <file>file:/C:/Users/braga/Documents/NetBeansProjects/controleBancario/src/view/cadContaCorrente.java</file>
         </group>
     </open-files>
 </project-private>
